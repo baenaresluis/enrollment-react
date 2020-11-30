@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(234, 234, 234)!important;
+}
+
+.ui.inverted.top.fixed.menu{
+    background-image: linear-gradient(135deg, rgb(34, 113, 179) 0%, rgb(0, 170, 228) 69%, rgb(81, 209, 246) 89%)!important;
+}
+
+.masthead{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(135deg, rgb(34, 113, 179) 0%, rgb(0, 170, 228) 69%, rgb(81, 209, 246) 89%)!important;
+    height: 100vh;
+}
+
+.masthead .ui.menu ui.button, .ui.ui.menu a.ui.inverted.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header{
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2{
+    font-size: 1.7em;
+    font-weight: normal;
+}
