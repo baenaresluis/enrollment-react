@@ -10,7 +10,7 @@ class StudentService {
     
     static addStudent = (student) => baseApi.post(STUDENTS_ENDPOINT, student)
 
-    static updateStudent = (student) = baseApi.put(getStudentUrl(student.id), student)
+    static updateStudent = (student) => baseApi.put(getStudentUrl(student.id), student)
 
     static removeStudent = (id) => baseApi.delete(getStudentUrl(id))
 }
